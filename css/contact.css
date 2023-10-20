@@ -1,0 +1,183 @@
+.contact-cards {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.contact h1 {
+    margin-top: 100px;
+    text-align: center;
+    color: var(--text-color, #252B42);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+}
+
+.div {
+    background: #F3F3F3;
+}
+
+.contact-cards {
+    max-width: 1120px;
+    padding-bottom: 50px;
+    margin-bottom: 150px;
+}
+
+.contact-card {
+    transition: 0.7s;
+    width: 328px;
+    padding: 50px 40px;
+    background: #FFF;
+}
+
+.contact p {
+    width: 290px;
+    margin: 0 auto;
+    color: var(--second-text-color, #737373);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+.contact-card h4 {
+    color: var(--text-color, #252B42);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    padding-top: 10px;
+}
+
+.contact-card h3 {
+    color: var(--text-color, #252B42);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    padding-top: 10px;
+}
+
+.contact-card button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    gap: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--primary-color, #FFA62B);
+    color: var(--primary-color, #FFA62B);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin-top: 20px;
+    background-color: transparent;
+}
+
+.contact-card img {
+    display: block;
+    margin: 0 auto;
+}
+
+.contact-card:hover {
+    width: 328px;
+    gap: 15px;
+    background: var(--dark-background-color, #252B42);
+}
+
+.contact-card:hover h3,
+.contact-card:hover h4,
+.contact-card:hover svg {
+    fill: white;
+    color: white;
+}
+
+.contact-card:hover button {
+    display: flex;
+    padding: 10px 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--light-text-color, #FFF);
+    color: var(--light-text-color, #FFF);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+.foter {
+    background: var(--secondary-color-2, #16697A);
+}
+
+.foot {
+    margin-top: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.foot h3 {
+    color: var(--light-text-color, #FFF);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+.foots a {
+    display: block;
+    padding-top: 10px;
+    color: var(--light-text-color, #FFF);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+.tel {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.tel {
+    padding-top: 9px;
+}
+
+.publics {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.publics h3 {
+    padding-left: 14px;
+    color: var(--second-text-color, #737373);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}

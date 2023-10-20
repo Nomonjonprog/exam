@@ -1,0 +1,140 @@
+.main {
+    background-image: url('../img/cover.png');
+    background-size: cover;
+    height: 620px;
+    flex-shrink: 0;
+    background-repeat: no-repeat;
+    /* position: relative; */
+}
+
+.home h1 {
+    padding-bottom: 35px;
+    padding-top: 80px;
+    width: 480px;
+    color: var(--text-color, #252B42);
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+}
+
+.home h4 {
+    padding-bottom: 35px;
+    width: 300px;
+    color: var(--second-text-color, #737373);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+}
+
+.form {
+    display: flex;
+    align-self: center;
+    gap: 15px;
+}
+
+.form button {
+    padding: 10px 36px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 37px;
+    border: 1px solid var(--secondary-color-1, #00A0C1);
+    color: var(--secondary-color-1, #00A0C1);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    transition: 0.5s;
+}
+
+.form button:hover {
+    padding: 10px 36px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 37px;
+    background: var(--primary-color, #FFA62B);
+    color: var(--light-text-color, #FFF);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
+
+.cards {
+    max-width: 1120px;
+    margin-top:20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    max-width: 350px;
+    margin-left: 10px;
+    padding: 35px 40px;
+    flex-direction: column;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+    transition: 0.5s;
+}
+
+.card h2 {
+    color: var(--text-color, #252B42);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+}
+
+.card p {
+    color: var(--second-text-color, #737373);
+    width: 200px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+.card:hover {
+    width: 328px;
+    padding: 35px 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    background: var(--secondary-color-1, #00A0C1);
+    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+}
+
+.card:hover svg {
+    background-color: white;
+}
+
+.card:hover p {
+    color: var(--light-text-color, #FFF);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+.card:hover h2 {
+    color: var(--light-text-color, #FFF);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+}

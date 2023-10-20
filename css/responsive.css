@@ -1,0 +1,13 @@
+@media (max-width: 650px) {
+    .nav-menu-btn {
+        display: block;
+    }
+
+    .nav-list {
+        display: none;
+    }
+    .home, .foot, .foots, .contact-cards, .register, .advise-cards, .services, .rek, .div, .cards, .about-cards{
+        display: flex;
+        flex-direction: column;
+}
+}

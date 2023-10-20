@@ -1,0 +1,78 @@
+.label {
+    border: 1px solid green;
+}
+
+.label input {
+    width: 450px;
+    padding: 15px 352px 15px 20px;
+    border: 1px solid #E6E6E6;
+    background: #F9F9F9;
+    border-right: none;
+}
+
+.label button {
+    width: 117px;
+    padding: 15px 22.5px;
+    flex-shrink: 0;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid #E6E6E6;
+    background: var(--primary-color, #FFA62B);
+    color: var(--light-text-color, #FFF);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    margin-right: 40px;
+    margin-left: -5px;
+    border-left: none;
+}
+.registe {
+    padding-bottom: 30px;
+}
+
+.register input {
+    display: flex;
+    width: 1120px;
+    height: 50px;
+    padding: 12px 20px;
+    align-items: center;
+    gap: 10px;
+    border: 2px dashed wheat;
+    outline: none;
+}
+
+.register select {
+    display: flex;
+   max-width: 1120px;
+    height: 50px;
+    padding: 12px 20px;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--Gray-5, #E0E0E0);
+}
+
+textarea {
+    border: 1px solid var(--Gray-5, #E0E0E0);
+    padding-left: 20px;
+    outline: none;
+}
+
+.register button {
+    display: flex;
+    padding: 15px 40px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: var(--primary-color, #FFA62B);
+    color: var(--light-text-color, #FFF);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    margin: 50px auto;
+    border: none;
+}
